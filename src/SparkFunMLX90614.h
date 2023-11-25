@@ -24,10 +24,10 @@ SparkFun IR Thermometer Evaluation Board - MLX90614
 // Default I2C PIN for non Atmega Boards //
 ///////////////////////////////////////////
 #ifndef SDA
-#define SDA	PIN_WIRE_SDA
+#define SDA 12
 #endif
 #ifndef SCL
-#define SCL PIN_WIRE_SCL
+#define SCL 13
 #endif
 
 //////////////////////////////////
